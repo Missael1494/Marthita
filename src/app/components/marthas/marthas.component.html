@@ -1,0 +1,113 @@
+<h1>Marthitas <small>Marthitas y fotos</small></h1>
+<hr>
+<!--<div class="card-columns">
+
+
+    <div class="card">
+        <img class="card-img-top img-fluid" src="assets/img/linterna-verde.png/" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+            <button type="button" class="btn btn-outline-primary btn-block">Ver más...</button>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="assets/img/linterna-verde.png/" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                <button type="button" class="btn btn-outline-primary btn-block">Ver más...</button>
+            </div>
+
+
+        </div> -->
+
+<div class="card-columns">
+    <div class="card" *ngFor="let martha of marthas">
+        <img class="card-img-top" [src]="martha.img" [alt]="martha.nombre">
+        <div class="card-body">
+            <h5 class="card-title">{{ martha.nombre }}</h5>
+            <p class="card-text">{{martha.bio}}</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+
+            <button type="button" class="btn btn-outline-primary">
+                Ver más...
+            </button>
+        </div>
+        <!--</div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_2.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_3.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_4.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_5.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_6.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_7.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_8.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="assets/img/marthita_9.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div> -->
